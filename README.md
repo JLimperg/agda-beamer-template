@@ -7,4 +7,4 @@ Tested with TeXLive 2017 and Agda 2.5.4.1.
 
 Result:
 
-![Slide with Agda code](talk.pdf)
+![Slide with Agda code](talk.png)

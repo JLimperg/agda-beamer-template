@@ -33,3 +33,8 @@ clean:
 .PHONY: mrproper
 mrproper: clean
 	rm -f $(LATEXDIR)/$(SOURCE).{xdv,pdf}
+
+
+# Generate the example image for this repo, using ImageMagick
+talk.png: $(LATEXDIR)/$(SOURCE).pdf
+	convert -density 600 $(LATEXDIR)/$(SOURCE).pdf -resize 25\% talk.png
