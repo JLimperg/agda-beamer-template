@@ -4,3 +4,8 @@ I always forget the exact incantation that persuades Beamer to render the
 Unicode nonsense in my Agda slides, so here it is, gloriously reusable.
 
 Tested with TeXLive 2017 and Agda 2.5.4.1.
+
+Result:
+
+![Slide with Agda
+code](https://raw.githubusercontent.com/JLimperg/agda-beamer-template/master/talk.pdf)
