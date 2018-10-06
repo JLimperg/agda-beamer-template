@@ -11,8 +11,9 @@
 
 \setmainfont{DejaVu Sans}
 \setsansfont{DejaVu Sans}
-%\setmathfont{DejaVu Math TeX Gyre}
 \setmathfont{XITS Math}
+% Alternatively:
+%\setmathfont{DejaVu Math TeX Gyre}
 \setmonofont{DejaVu Sans Mono}
 
 
@@ -26,7 +27,7 @@ open import Data.Nat using (ℕ)
 
 
 \begin{frame}
-Some normal text. ℕ
+Some normal text with a Unicode ℕ.
 
 \begin{eqnarray*}
 && f : ℕ → ℕ \\
