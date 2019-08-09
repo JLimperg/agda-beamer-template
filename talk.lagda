@@ -1,5 +1,5 @@
 \documentclass[xetex]{beamer}
-\usepackage[nofontsetup]{agda}
+\usepackage{agda}
 \usepackage{fontspec}
 \usepackage{unicode-math}
 
