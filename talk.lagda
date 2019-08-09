@@ -3,13 +3,7 @@
 \usepackage{fontspec}
 \usepackage{unicode-math}
 
-% Why do we set the font theme to serif (default is sans-serif), only to set a
-% sans font as the 'serif' font with \setmainfont below? Don't ask me. With the
-% default font theme (as well as 'professionalfonts'), \setsansfont seems to
-% have no effect.
-\usefonttheme{serif}
-
-\setmainfont{DejaVu Sans}
+\setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
 \setmathfont{XITS Math}
 % Alternatively:
