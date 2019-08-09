@@ -3,7 +3,7 @@
 I always forget the exact incantation that persuades Beamer to render the
 Unicode nonsense in my Agda slides, so here it is, gloriously reusable.
 
-Tested with TeXLive 2017 and Agda 2.5.4.1.
+Tested with TeXLive 2019 and Agda 2.6.0.1
 
 Result:
 
