@@ -29,8 +29,8 @@ Some normal text with a Unicode ℕ.
 \end{eqnarray*}
 
 \begin{code}
-data Stuff : Set where
-  stuff : ℕ → Stuff
+data Stuff ℓ : Set ℓ where
+  stuff : ℕ → Stuff ℓ
 \end{code}
 \end{frame}
 
